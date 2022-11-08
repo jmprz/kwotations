@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+* {box-sizing:border-box}
+
+body{
+  background-color: #F7F7F7;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#393E46;
+  overflow-y: hidden;
+}
+
+button{
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
+}
+/* Header Section */
+.header{
+  position: relative;
+  top: -5px;
+}
+.header h1{
+  display: flex;
+  justify-content: center;
+  font-size: 9vh;
+  padding-bottom: 0px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+  font-size: 4vh;
+}
+.copy{
+  top: -115px;
+  font-size: 3vh;
+}
+.about-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+.about-heart{
+  position: relative;
+  font-size: 30px;
+  color: #ff534e ;
+  top: -15px;
+}
+.about-link{
+  text-align: center;
+  font-size: 30px;
+}
+.about-link a{
+  text-decoration: none;
+  color: #758bfd;
+  font-size:30px;
+  top: -35px;
+  position: relative;
+}
+.get-start{
+  display: flex;
+  justify-content: center;
+}
+
+.get-start button{
+  background-color: #F7F7F7;
+  border: none;
+  color: #393E46;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 4px solid #393E46;
+  border-radius: 15px;
+}
+.get-start button:hover {
+  background-color: #FF595E;
+  color: white;
+  border: 4px solid #FF595E;;
+}
+
+/* Quotes Section*/
+.quotes-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:-120px;
+  }
+  .quotes-container p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+.quote1{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote1 p {
+display: flex;
+position: relative;
+padding-left: 40px;
+padding-right: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote1 p:hover{
+  color: #FF595E;
+}
+.circles1{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #FF595E;
+}
+.quote2{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote2 p {
+display: flex;
+position: relative;
+padding-left: 40px;
+padding-right: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote2 p:hover{
+  color: #FF924C;
+}
+.circles2{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #FF924C;
+}
+.quote3{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote3 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote3 p:hover{
+  color: #FFCA3A;
+}
+.circles3{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #FFCA3A;
+}
+.quote4{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote4 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote4 p:hover{
+  color: #C5CA30;
+}
+.circles4{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #C5CA30;
+}
+.quote5{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote5 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote5 p:hover{
+  color: #8AC926;
+}
+.circles5{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #8AC926;
+}
+.quote6{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote6 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote6 p:hover{
+  color: #36949D;
+}
+.circles6{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #36949D;
+}
+.quote7{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote7 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote7 p:hover{
+  color: #1982C4;
+}
+.circles7{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #1982C4;
+}
+.quote8{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote8 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote8 p:hover{
+  color: #4267AC;
+}
+.circles8{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #4267AC;
+}
+.quote9{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote9 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 45px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote9 p:hover{
+  color: #565AA0;
+}
+.circles9{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #565AA0;
+}
+.quote10{
+  display:flex;
+  border-top: none;
+  background-color: white;
+  color: #393E46;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 30px;
+    padding: 0px;
+    width: 750px;
+    height: 350px;
+}
+.quote10 p {
+display: flex;
+position: relative;
+padding-right: 40px;
+padding-left: 40px;
+  font-size: 43px;
+  cursor: pointer;
+  top: -50px;
+}
+.quote10 p:hover{
+  color: #6A4C93;
+}
+.circles10{
+  font-size: 80px;
+  display: flex;
+  position: relative;
+  left: 20px;
+  color: #6A4C93;
+}
+
+/* Copied Sectin */
+.copy-section{
+  display: none;
+}
+.copied-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -450px;
+  font-size: 4vh;
+  z-index: 2;
+}
+.copied-container i{
+padding-left: 10px;
+color: #02c39a;
+}
+span .successfully {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.successfully::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:transparent transparent transparent;
+}
+
+/* Next & previous buttons */
+.arrow{
+  display: flex;
+ }
+ .arrow button{
+   background-color: rgba(0,0,0,0);;
+   cursor: pointer;
+    }
+.prev, .next {
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  top: 350px;
+  width: auto;
+  padding: 16px;
+  color: #393E46;
+  font-weight: bold;
+  font-size: 70px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  border: none;
+  text-decoration: none;
+}
+.next {
+  right:170px;
+}
+.prev {
+    left:170px;
+  }

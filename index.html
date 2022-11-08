@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kwotations</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Kwotations</h1>
+        <p class="about"> A Simple Love & Motivational Quotes Generator</p>
+        <div class="about-author">
+            <p class="about">Made with &nbsp; </p>
+            <div class="about-heart">❤ &nbsp;</div>
+            <p class="about">by &nbsp; </p>
+            <p class="about-link"><a href="https://github.com/jmprz" target="_blank">Jack Perez</a></p>
+        </div>
+        <p class="about copy">Click on the text to copy the quote</p>
+    </div>
+    <!-- Start Section -->
+    <div class="get-start">
+    <button id='start'>Click Me To Start!</button>
+</div>
+  <!-- Quotes Section -->
+    <div id="quotes" class="quotes-container">
+        <div class="quote1">
+        <div class="circles1">•••</div>
+        <p onclick="copyClick1()" onmouseout="copiedClick()">❝Learn as if you will live forever, live like you will die tomorrow.❞ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Mahatma Gandhi</br></p>
+        </div>
+        <div class="quote2">
+            <div class="circles2">•••</div>
+        <p onclick="copyClick2()" onmouseout="copiedClick()">❝Women are meant to be loved, not to be understood.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — Oscar Wilde</br></p>
+        </div>
+        <div class="quote3">
+            <div class="circles3">•••</div>
+        <p onclick="copyClick3()" onmouseout="copiedClick()">❝I would rather spend one lifetime with you, than face all the ages of this world alone.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — J.R.R. Tolkien</br></p>
+        </div>
+        <div class="quote4">
+            <div class="circles4">•••</div>
+        <p onclick="copyClick4()" onmouseout="copiedClick()">❝Success is getting what you want, happiness is wanting what you get.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ― W. P. Kinsella</br></p>
+        </div>
+        <div class="quote5">
+            <div class="circles5">•••</div>
+        <p onclick="copyClick5()" onmouseout="copiedClick()">❝Education is the most powerful weapon which you can use to change the world.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — Nelson Mandela</br></p>
+        </div>
+        <div class="quote6">
+            <div class="circles6">•••</div>
+        <p onclick="copyClick6()" onmouseout="copiedClick()">❝Life is like riding a bicycle. To keep your balance you must keep moving.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — Albert Einstein</br></p>
+        </div>
+        <div class="quote7">
+            <div class="circles7">•••</div>
+        <p onclick="copyClick7()" onmouseout="copiedClick()">❝I have decided to stick to love; hate is too great a burden to bear.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Martin Luther King Jr.</br></p>
+        </div>
+        <div class="quote8">
+            <div class="circles8">•••</div>
+        <p onclick="copyClick8()" onmouseout="copiedClick()">❝When you change your thoughts, remember to also change your world.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Norman Vincent Peale</br></p>
+        </div>
+        <div class="quote9">
+            <div class="circles9">•••</div>
+        <p onclick="copyClick9()" onmouseout="copiedClick()">❝If you don’t risk anything, you risk even more.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— Erica Jong</br></p>
+        </div>
+        <div class="quote10">
+            <div class="circles10">•••</div>
+        <p onclick="copyClick10()" onmouseout="copiedClick()">❝The two most important days in your life are the day you’re born and the day you find out why.❞<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; — Mark Twain</br></p>
+        </div>
+    </div>
+    <div class="copied-container">
+    <span class="successfully" id="copied"></span>
+</div>
+    <!-- Next and Previous buttons -->
+    <div class="arrow">
+        <div id='prev' class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+        <div id='next' class="next"><i class="fa-solid fa-chevron-right"></i></div>
+      </div>
+</div>
+   <!-- Copy Section -->
+<div class="copy-section">
+    <input type="text" value="“Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi" id="first">
+    <input type="text" value="“Women are meant to be loved, not to be understood.” — Oscar Wilde" id="second">
+    <input type="text" value="“I would rather spend one lifetime with you, than face all the ages of this world alone.” — J.R.R. Tolkien" id="third">
+    <input type="text" value="“Success is getting what you want, happiness is wanting what you get.” ― W. P. Kinsella" id="fourth">
+    <input type="text" value="“Education is the most powerful weapon which you can use to change the world.” — Nelson Mandela" id="fifth">
+    <input type="text" value="“Life is like riding a bicycle. To keep your balance you must keep moving.” — Albert Einstein" id="sixth">
+    <input type="text" value="“I have decided to stick to love; hate is too great a burden to bear.” — Martin Luther King Jr." id="seventh">
+    <input type="text" value="“When you change your thoughts, remember to also change your world.” — Norman Vincent Peale" id="eight">
+    <input type="text" value="“If you don’t risk anything, you risk even more.” —Erica Jong" id="ninth">
+    <input type="text" value="“The two most important days in your life are the day you’re born and the day you find out why.” — Mark Twain" id="tenth">
+</div>
+</body>
+<script src="script.js"></script>
+</html>
