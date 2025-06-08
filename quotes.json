@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "color": "blue"
+    },
+    {
+        "id": 2,
+        "quote": "Believe you can and you're halfway there.",
+        "author": "Theodore Roosevelt",
+        "color": "green"
+    },
+    {
+        "id": 3,
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt",
+        "color": "purple"
+    },
+    {
+        "id": 4,
+        "quote": "It is not in the stars to hold our destiny but in ourselves.",
+        "author": "William Shakespeare",
+        "color": "red"
+    },
+    {
+        "id": 5,
+        "quote": "Love is not about possession. It is about appreciation.",
+        "author": "Osho",
+        "color": "pink"
+    },
+    {
+        "id": 6,
+        "quote": "You are never too old to set another goal or to dream a new dream.",
+        "author": "C.S. Lewis",
+        "color": "yellow"
+    },
+    {
+        "id": 7,
+        "quote": "The best way to predict the future is to create it.",
+        "author": "Abraham Lincoln",
+        "color": "teal"
+    },
+    {
+        "id": 8,
+        "quote": "Where there is love, there is life.",
+        "author": "Mahatma Gandhi",
+        "color": "indigo"
+    },
+    {
+        "id": 9,
+        "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "color": "orange"
+    },
+    {
+        "id": 10,
+        "quote": "To love and be loved is to feel the sun from both sides.",
+        "author": "David Viscott",
+        "color": "rose"
+    },
+    {
+        "id": 11,
+        "quote": "The mind is everything. What you think you become.",
+        "author": "Buddha",
+        "color": "amber"
+    },
+    {
+        "id": 12,
+        "quote": "If you want to live a happy life, tie it to a goal, not to people or things.",
+        "author": "Albert Einstein",
+        "color": "cyan"
+    },
+    {
+        "id": 13,
+        "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela",
+        "color": "fuchsia"
+    },
+    {
+        "id": 14,
+        "quote": "The journey of a thousand miles begins with a single step.",
+        "author": "Lao Tzu",
+        "color": "lime"
+    },
+    {
+        "id": 15,
+        "quote": "Keep your eyes on the stars, and your feet on the ground.",
+        "author": "Theodore Roosevelt",
+        "color": "emerald"
+    },
+    {
+        "id": 16,
+        "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+        "author": "Martin Luther King Jr.",
+        "color": "gray"
+    },
+    {
+        "id": 17,
+        "quote": "The best revenge is massive success.",
+        "author": "Frank Sinatra",
+        "color": "red"
+    },
+    {
+        "id": 18,
+        "quote": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon",
+        "color": "blue"
+    },
+    {
+        "id": 19,
+        "quote": "What we achieve inwardly will change outer reality.",
+        "author": "Plutarch",
+        "color": "purple"
+    },
+    {
+        "id": 20,
+        "quote": "To the world you may be one person, but to one person you may be the world.",
+        "author": "Bill Wilson",
+        "color": "pink"
+    },
+    {
+        "id": 21,
+        "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "author": "Franklin D. Roosevelt",
+        "color": "green"
+    },
+    {
+        "id": 22,
+        "quote": "You must be the change you wish to see in the world.",
+        "author": "Mahatma Gandhi",
+        "color": "yellow"
+    },
+    {
+        "id": 23,
+        "quote": "Happiness is not something ready made. It comes from your own actions.",
+        "author": "Dalai Lama",
+        "color": "teal"
+    },
+    {
+        "id": 24,
+        "quote": "True love is inexhaustible; the more you give, the more you have.",
+        "author": "Antoine de Saint-Exupéry",
+        "color": "indigo"
+    },
+    {
+        "id": 25,
+        "quote": "Opportunities don't happen, you create them.",
+        "author": "Chris Grosser",
+        "color": "orange"
+    }
+]
